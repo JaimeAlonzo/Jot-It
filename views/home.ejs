@@ -1,0 +1,188 @@
+<%- include("partials/header") %>
+
+<section class="colored-section" id="title">
+  <div class="container-fluid">
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="#">Jot It!</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#help-links">Links</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#notes">Notes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#help-site">Help Site</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- TITLE -->
+
+    <div class="row">
+
+      <div class="col-lg-6">
+        <h1 class="big-heading">THE #1 INTERPRETER NOTE TAKING PAGE!</h1>
+      </div>
+      <div class="col-lg-6">
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section id="help-links">
+
+  <div class="container-fluid">
+
+    <div class="row">
+      <div class="feature-box col-lg-4">
+        <a href="#help-site" id="lin"><img class="icon" src="images/Linguee.png"></a>
+        <h3 class="feature-title">Linguee</h3>
+        <p>Eng to Spa dictionary.</p>
+      </div>
+
+      <div class="feature-box col-lg-4">
+        <a href="#help-site" id="zip"><img class="icon" src="images/Us.png"></a>
+        <h3 class="feature-title">US Zip Codes</h3>
+        <p>Look up adresses.</p>
+      </div>
+
+      <div class="feature-box col-lg-4">
+        <a href="#help-site" id="mer"><img class="icon" src="images/Mer.png"></a>
+        <h3 class="feature-title">Meriam Webster</h3>
+        <p>English dictionary.</p>
+      </div>
+    </div>
+
+
+  </div>
+
+</section>
+
+
+<section class="colored-section" id="notes">
+
+  <div class="container-fluid">
+
+    <div class="row">
+      <div class="card-col col-lg-4 col-md-12 col-sm-12">
+        <div class="card">
+          <div class="card-header">
+            <h3>LEP INFO</h3>
+          </div>
+          <div class="card-body">
+            <form>
+              <div class="in">
+                <label>Name: </label><br>
+                <input class="txt" type="text" name="" value=""><br><br>
+              </div>
+
+              <div class="in">
+                <label>Date: </label><br>
+                <input class="txt" type="text" name="" value=""><br><br>
+              </div>
+
+              <div class="in">
+                <label>Address: </label><br>
+                <input class="txt" type="text" name="" value=""><br><br>
+              </div>
+
+              <div class="in">
+                <label>Phone: </label><br>
+                <input class="txt" type="text" name="" value=""><br><br>
+              </div>
+
+              <div class="in">
+                <label>ID Number: </label><br>
+                <input class="txt" type="text" name="" value=""><br><br>
+              </div>
+
+              <input class="btn btn-lg btn-primary" type="reset" name="" value="Reset">
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-col col-lg-4 col-md-12 col-sm-12">
+        <div class="card">
+          <div class="card-header">
+            <h3>NOTES</h3>
+          </div>
+          <div class="card-body">
+            <form>
+              <textarea class="txt-size txt" cols="30" rows="19"></textarea><br><br>
+              <input class="btn btn-lg btn-primary" type="reset" name="" value="Reset">
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-col col-lg-4 col-md-12 col-sm-12">
+        <div class="card">
+          <div class="card-header">
+            <h3>VOICE MESSAGE</h3>
+          </div>
+          <div class="card-body">
+            <form>
+              <textarea class="txt" cols="30" rows="11"></textarea><br><br>
+
+              <div class="in">
+                <label>Call Back: </label><br>
+                <input class="txt" type="text" name="" value=""><br><br>
+              </div>
+
+              <div class="in">
+                <label>Ext: </label><br>
+                <input class="txt" type="text" name="" value=""><br><br>
+              </div>
+              <input class="btn btn-lg btn-primary" type="reset" name="" value="Reset">
+            </form>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+</section>
+
+<section id="help-site">
+  <div class="container-fluid">
+
+    <ul class="nav justify-content-center lnks">
+      <li class="nav-item">
+        <a class="nav-link" href="https://www.linguee.es/" target="iframe_a">Linguee</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://www.unitedstateszipcodes.org/" target="iframe_a">US Zip Code</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://www.merriam-webster.com/" target="iframe_a">Meriam Webster</a>
+      </li>
+    </ul>
+
+    <iframe class="site" src="https://www.linguee.es/" name="iframe_a"></iframe>
+
+  </div>
+
+
+</section>
+
+<section class="colored-section" id="footer">
+  <div class="container-fluid">
+    <p>© Copyright 2018 Jay Z</p>
+  </div>
+</section>
+<%- include("partials/footer") %>

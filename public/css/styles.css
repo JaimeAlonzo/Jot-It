@@ -1,0 +1,126 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+/* headings */
+
+.big-heading{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+/* containers */
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section{
+  background-color: #343a40;
+  color: #fff;
+}
+
+.white-section{
+  background-color: #fff;
+}
+
+/* Navigation Bar */
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
+
+/* Buttons */
+
+/* Title Section */
+
+#title{
+  background-color: #343a40;
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid{
+  padding: 3% 15% 7%;
+}
+
+/* Features Section */
+
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.icon {
+  margin-bottom: 1rem;
+  width: 81px;
+  height: 81px;
+}
+
+/* Notes */
+
+#notes .container-fluid{
+ padding: 2% 2%;
+ color: Black;
+}
+
+.card-col{
+padding: 1% 1.5%;
+}
+
+.card{
+height: 626.8px;
+}
+
+.txt-size{
+  height: 394px;
+  width: 75%;
+}
+
+.txt{
+  font-family: 'Source Code Pro', monospace;
+}
+
+/* Help Site */
+
+.site{
+  width: 100%;
+  height: 500px;
+}
+
+.lnks{
+  padding-bottom: 1.5rem;
+}
